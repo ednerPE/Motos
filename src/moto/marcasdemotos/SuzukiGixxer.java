@@ -3,7 +3,7 @@ package moto.marcasdemotos;
 import moto.IMarca;
 
 
-public class Suzuki implements IMarca{
+public class SuzukiGixxer implements IMarca{
 
     @Override
     public void Modelo() {

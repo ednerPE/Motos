@@ -2,7 +2,7 @@ package moto;
 
 import moto.marcasdemotos.Bajaj;
 import moto.marcasdemotos.BajajDiscover;
-import moto.marcasdemotos.Suzuki;
+import moto.marcasdemotos.SuzukiGixxer;
 
 public class Moto {
 
@@ -12,7 +12,7 @@ public class Moto {
     public static void main(String[] args) {
         System.out.println("-------------------");
         
-        Motos mg = new Motos(new Suzuki());
+        Motos mg = new Motos(new SuzukiGixxer());
         mg.mostrarModelo();
         mg.mostrarMotor();
         
