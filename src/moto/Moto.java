@@ -1,6 +1,7 @@
 package moto;
 
 import moto.marcasdemotos.Bajaj;
+import moto.marcasdemotos.BajajDiscover;
 import moto.marcasdemotos.Suzuki;
 
 public class Moto {
@@ -19,6 +20,14 @@ public class Moto {
        Motos mp = new Motos(new Bajaj());
        mp.mostrarModelo();
        mp.mostrarMotor();
+       
+
+       System.out.println("-------------------");
+       Motos bp = new Motos(new BajajDiscover());
+       bp.mostrarModelo();
+       bp.mostrarMotor();
+
+
     }
     
 }
